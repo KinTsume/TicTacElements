@@ -1,0 +1,84 @@
+
+body{
+    text-align: center;
+    height: 100%;
+    background-image: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 79%);
+
+}
+
+.elementSelection{
+    position: absolute;
+    width: 30%;
+    height: 50%;
+    background-color: rebeccapurple;
+    box-shadow: 4px 4px 4px rgb(109, 68, 150) inset,
+                -4px -4px 4px rgb(91, 29, 153) inset;
+}
+
+#p1{
+    left: 10px;
+}
+
+#p2{
+    right: 10px;
+}
+
+.elementButton{
+    width: 90%;
+    height: 15%;
+    margin : 10px 0 0 10px;
+    border-radius: 5px;
+}
+
+.fire{
+    background-image: linear-gradient(to right, yellow, red);
+}
+
+.water{
+    background-image: linear-gradient(to right, blue, aqua);
+    color:rgb(56, 32, 1);
+}
+
+.air{
+    background-image: linear-gradient(to right, rgb(166, 231, 243), rgb(31, 51, 56));
+}
+
+.earth{
+    background-image: linear-gradient(to right, rgb(56, 32, 1), rgb(177, 152, 40));
+}
+
+.hidden{
+    display: none;
+}
+
+.clickedBtn{
+    background-color: gray;
+}
+
+.block{
+    display: flex;
+    width: 330px;
+    margin: auto;
+}
+
+.game-box{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 5px;
+    padding: auto;
+    background-color: royalblue;
+    box-shadow: 2px 2px 4px rgb(101, 132, 226) inset,
+                -2px -2px 4px rgb(37, 84, 224) inset;
+}
+
+.winner-color{
+    background-color: green;
+}
+
+.box-img{
+    align-self: center;
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+}

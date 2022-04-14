@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac... ELEMENTS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tic Tac... ELEMENTS</h1>
+    <div id="p1" class="elementSelection">
+        <p>Player 1 (X)</p>
+        <button class="elementButton fire" class="fire">Fire</button>
+        <button class="elementButton water" class="water">Water</button>
+        <button class="elementButton air" class="air">Air</button>
+        <button class="elementButton earth" class="earth">Earth</button>
+    </div>
+
+    <div id="p2" class="elementSelection">
+        <p>Player2 (O)</p>
+        <button class="elementButton fire" class="fire">Fire</button>
+        <button class="elementButton water" class="water">Water</button>
+        <button class="elementButton air" class="air">Air</button>
+        <button class="elementButton earth" class="earth">Earth</button>
+    </div>
+
+    <div class="block">
+        <div class="game-box">
+            <img id="1" class="box-img" src="img/transp.png"/>
+        </div>
+        <div class="game-box">
+            <img id="2" class="box-img" src="img/transp.png"/>
+        </div>
+        <div class="game-box">
+            <img id="3" class="box-img" src="img/transp.png"/>
+        </div>
+    </div>
+    <div class="block">
+        <div class="game-box">
+            <img id="4" class="box-img" src="img/transp.png"/>
+        </div>
+        <div class="game-box">
+            <img id="5" class="box-img" src="img/transp.png"/>
+        </div>
+        <div class="game-box">
+            <img id="6" class="box-img" src="img/transp.png"/>
+        </div>
+    </div>
+    <div class="block">
+        <div class="game-box">
+            <img id="7" class="box-img" src="img/transp.png"/>
+        </div>
+        <div class="game-box">
+            <img id="8" class="box-img" src="img/transp.png"/>
+        </div>
+        <div class="game-box">
+            <img id="9" class="box-img" src="img/transp.png"/>
+        </div>
+    </div>
+    <p id="player">Jogador: X</p>
+    <p id="winner">Vencerdor: </p>
+    <button id="reset-button">Reiniciar</button>
+    <audio src="./sound/fire.wav" type="audio/wav"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
